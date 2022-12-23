@@ -17,4 +17,8 @@ public class MainClass {
 	double p_CelToKel(double cel) {
 		return cel+273.15;
 	}
+	
+	double p_FarToKel(double far){
+		return (far-32)/1.8+273.15;
+	}
 }
