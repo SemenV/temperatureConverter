@@ -6,6 +6,23 @@ public class MainClass {
 		System.out.println("qwerty");
 	}
 	
+	
+	boolean validateData(String[] args) {
+		if (args.length < 2) {
+			return false;
+		} else 
+		if ((args[0].equals("-cf")) || (args[0].equals("-fc")) || (args[0].equals("-fk")) 
+				|| (args[0].equals("-ck")) || (args[0].equals("-kx")) || 
+				(args[0].equals("-kf"))) {
+
+			if (args[1].matches("-*[0-9]+")) {
+				return true;
+			}
+		} 
+		return false;
+
+	}
+	
 	double p_CelToFar(double cel) {
 		return cel*1.8+32;
 	}
