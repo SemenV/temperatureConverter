@@ -27,6 +27,5 @@ hs_err_pid*
 /tempCon/target
 /tempCon/.classpath
 /tempCon/.project
-Dockerfile.bak
-
+*.bak
 
