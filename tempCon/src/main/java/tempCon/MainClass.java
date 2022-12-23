@@ -21,4 +21,9 @@ public class MainClass {
 	double p_FarToKel(double far){
 		return (far-32)/1.8+273.15;
 	}
+	
+	double p_KelToFar(double kel){
+		return 1.8*(kel - 273.15) + 32;
+	}
+	
 }
