@@ -10,5 +10,7 @@ public class MainClass {
 		return cel*1.8+32;
 	}
 	
-	
+	double p_FarToCel(double far) {
+		return (far-32)/1.8;
+	}
 }
