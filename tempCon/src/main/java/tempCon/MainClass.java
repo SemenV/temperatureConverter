@@ -15,27 +15,27 @@ public class MainClass {
 		}
 		else {
 			if (args[0].equals("-cf")) {
-				System.out.println("Cel to Far = " + 
+				System.out.printf("Cel to Far = %.2f", 
 			p_CelToFar(Double.parseDouble(args[1])));
 			}
 			if (args[0].equals("-fc")) {
-				System.out.println("Far to Cel = " + 
+				System.out.printf("Far to Cel = %.2f" ,
 				(p_FarToCel(Double.parseDouble(args[1]))));
 			}
 			if (args[0].equals("-ck")) {
-				System.out.println("Cel to Kel=" + 
+				System.out.printf("Cel to Kel = %.2f" , 
 			p_CelToKel(Double.parseDouble(args[1])));
 			}
 			if (args[0].equals("-fk")) {
-				System.out.println("Far to Kel=" + 
+				System.out.printf("Far to Kel = %.2f" , 
 			p_FarToKel(Double.parseDouble(args[1])));
 			}
 			if (args[0].equals("-kf")) {
-				System.out.println("Kel to Far=" + 
+				System.out.printf("Kel to Far = %.2f" , 
 			p_KelToFar(Double.parseDouble(args[1])));
 			}
 			if (args[0].equals("-kc")) {
-				System.out.println("Kel to Cel=" + 
+				System.out.printf("Kel to Cel = %.2f" , 
 			p_KelToCel(Double.parseDouble(args[1])));
 			}
 			
