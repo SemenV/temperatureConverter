@@ -26,4 +26,8 @@ public class MainClass {
 		return 1.8*(kel - 273.15) + 32;
 	}
 	
+	double p_KelToCel(double kel){
+		return kel-273.15;
+	}
+	
 }
