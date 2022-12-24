@@ -20,3 +20,5 @@ Run application
 ![run app 2 fc](pictures/run_app_2_fc.png)
 
 ![run app 3 ck](pictures/run_app_3_ck.png)
+
+Thank you for using our app
