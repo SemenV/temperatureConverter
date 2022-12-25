@@ -1,3 +1,6 @@
+![Build Status](https://github.com/SemenV/temperatureConverter/actions/workflows/main.yml/badge.svg?branch=develop) (dev)
+![Build Status](https://github.com/SemenV/temperatureConverter/actions/workflows/main.yml/badge.svg?branch=main) (main)
+
 # temperatureConverter
 Convert temperature between Kelvin, Fahrengeit and Celsius
 
@@ -22,3 +25,4 @@ Run application
 ![run app 3 ck](pictures/run_app_3_ck.png)
 
 Thank you for using our app
+Now with auto tests!
