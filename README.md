@@ -1,3 +1,6 @@
+![Build Status](https://github.com/SemenV/temperatureConverter/actions/workflows/main.yml/badge.svg?branch=develop) (dev)
+![Build Status](https://github.com/SemenV/temperatureConverter/actions/workflows/main.yml/badge.svg?branch=main) (main)
+
 # temperatureConverter
 Convert temperature between Kelvin, Fahrengeit and Celsius
 
